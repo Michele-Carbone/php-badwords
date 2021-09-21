@@ -14,7 +14,6 @@
     echo $paragr . '<br>';
 
     echo strlen($paragr) . '<br>';
-    //echo strpos($paragr, $utente);
     echo str_replace($utente, '***',$paragr);
     ?>
     
